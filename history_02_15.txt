@@ -1,0 +1,461 @@
+    1  pwd
+    2  ls
+    3  cd Desktop/
+    4  ls
+    5  git clone https://github.com/Islam-shahpar/ITP270_SPRING2023.git
+    6  ls
+    7  clear
+    8  history
+    9  cd ITP270_SPRING2023/
+   10  ls
+   11  mkdir Git_Basic_WorkFlow
+   12  ls
+   13  cd Git_Basic_WorkFlow/
+   14  touch scene-1.txt
+   15  ls
+   16  nano -l scene-1.txt 
+   17  ls
+   18  clear
+   19  git status
+   20  git add scene-1.txt 
+   21  git status
+   22  git commit -m "Added our first file"
+   23  clear
+   24  git push
+   25  pwd
+   26  l
+   27  ls
+   28  cd Desktop/
+   29  ls
+   30  cd ITP270_SPRING2023/
+   31  ls
+   32  cd Git_Basic_WorkFlow/
+   33  ls
+   34  rm -rf scene-1.txt 
+   35  ls
+   36  pwd
+   37  cd Desktop/
+   38  ls
+   39  cd ITP270_SPRING2023/
+   40  ls
+   41  mkdir Jan_26
+   42  cd Jan_26/
+   43  ls
+   44  clear
+   45  nano -l 01_26_2023.txt
+   46  git diff
+   47  git status
+   48  clear
+   49  git add .
+   50  git commit -m "New file added for backtracking"
+   51  clear
+   52  git show HEAD
+   53  clear
+   54  nano -l 01_26_2023.txt 
+   55  history
+   56  ls
+   57  clear
+   58  cat 01_26_2023.txt 
+   59  git diff
+   60  clear
+   61  git show HEAD
+   62  clear
+   63  git status
+   64  git add .
+   65  git commit -m "Added the command to see the git status"
+   66  clear
+   67  git show HEAD
+   68  git checkout HEAD 01_26_2023.txt
+   69  git show HEAD
+   70  git diff
+   71  cat 01_26_2023.txt 
+   72  nano -l 01_26_2023.txt 
+   73  git diff
+   74  git add .
+   75  git commit -m "Corrected the command for git status"
+   76  clear
+   77  git push
+   78  cd ..
+   79  ls
+   80  git pull
+   81  ls
+   82  git push
+   83  history
+   84  clear
+   85  cd Jan_26/
+   86  cat 01_26_2023.txt 
+   87  nano -l 01_26_2023.txt 
+   88  git status
+   89  clear
+   90  git add .
+   91  git status
+   92  cat 01_26_2023.txt 
+   93  clear 
+   94  git reset HEAD 01_26_2023.txt
+   95  git status
+   96  nano -l 01_26_2023.txt 
+   97  git status
+   98  git add .
+   99  git status
+  100  clear
+  101  git log
+  102  git reset 7296579
+  103  git log
+  104  clear
+  105  history
+  106  clear
+  107  nano -l 01_26_2023.txt 
+  108  git add . && git commit -m "Summary for Backtracking module"
+  109  git push
+  110  git pull
+  111  git push
+  112  clear
+  113  git status
+  114  git add .
+  115  git status
+  116  cd ..
+  117  ls
+  118  git add .
+  119  git status
+  120  git commit -m "Added summary for Backtracking module"
+  121  git push
+  122  git pull
+  123  git add .
+  124  git commit -m "Added the summary for Backtracking module"
+  125  git push
+  126  pwd
+  127  ls
+  128  cd Desktop/
+  129  ls
+  130  cd ITP270_SPRING2023/
+  131  git branch
+  132  git branch fencing
+  133  git branch
+  134  git checkout fencing
+  135  git branch
+  136  clear
+  137  git branch fencing
+  138  git branch
+  139  clear
+  140  nano -l resume.txt
+  141  ls
+  142  git status
+  143  git add resume.txt 
+  144  git status
+  145  clear
+  146  git commit -m "Adding the resume of Peter Pan"
+  147  clear
+  148  nano -l resume.txt 
+  149  ls
+  150  git status 
+  151  git push
+  152  git push --set-upstream origin fencing
+  153  clear
+  154  git branch
+  155  git checkout master
+  156  git checkout main
+  157  git merge fencing
+  158  clear
+  159  git branch
+  160  git branch ITP270_lecture5
+  161  git checkout ITP270_lecture5 
+  162  git branch
+  163  nano -l lecture_commands.txt
+  164  git status
+  165  git add lecture_commands.txt 
+  166  git commit -m "Adding the commands used in this lecture"
+  167  clear
+  168  git push --set-upstream origin ITP270_lecture5 
+  169  clear
+  170  git branch
+  171  git checkout main
+  172  git merge ITP270_lecture5 
+  173  clear
+  174  git branch
+  175  ls
+  176  nano -l lecture_commands.txt 
+  177  git add lecture_commands.txt 
+  178  git commit -m "Adding the last command of the class"
+  179  clear
+  180  git push
+  181  git pull
+  182  git config pull.rebase true
+  183  clear
+  184  git pull
+  185  clear
+  186  git push
+  187  clear
+  188  history
+  189  pwd
+  190  ls
+  191  cd Desktop/
+  192  git clone https://github.com/Islam-shahpar/Practice_git_commands_si2382.git
+  193  clear
+  194  ls
+  195  cd Practice_git_commands_si2382/
+  196  touch git_commands_v1.txt
+  197  nano -l git_commands_v1.txt 
+  198  cat git_commands_v1.txt 
+  199  git status
+  200  git add git_commands_v1.txt 
+  201  git status
+  202  clear
+  203  git commit -m "Adding the version 1 of command cheat sheet"
+  204  clear
+  205  cat git_commands_v1.txt 
+  206  clear
+  207  git push 
+  208  history
+  209  clear
+  210  nano -l git_commands_v1.txt 
+  211  git add . && git commit -m "Updating the version 1"
+  212  git push
+  213  clear
+  214  git log
+  215  git show HEAD
+  216  git status
+  217  cat git_commands_v1.txt 
+  218  history
+  219  touch bla_bla.txt
+  220  git status
+  221  git add .
+  222  git status
+  223  clear
+  224  git reset HEAD bla_bla.txt
+  225  git status
+  226  git log
+  227  git reset 2bbe8c0
+  228  git log
+  229  clear
+  230  git status
+  231  git reset HEAD git_commands_v1.txt
+  232  git log
+  233  git status
+  234  clear
+  235  nano -l git_commands_v1.txt 
+  236  git status
+  237  git add git_commands_v1.txt 
+  238  git status
+  239  git log
+  240  git reset HEAD git_commands_v1.txt
+  241  git log
+  242  git status
+  243  rm -rf bla_bla.txt 
+  244  git add . && git commit -m "Adding backtracking commands to version 1"
+  245  git push
+  246  clear
+  247  git log
+  248  clear
+  249  git branch
+  250  git branch optional
+  251  git checkout optional
+  252  nano -l git_commands_v1.txt 
+  253  git status
+  254  git add . git commit -m "Updating version 1 on a new branch"
+  255  git add . && git commit -m "Updating version 1 on a new branch"
+  256  clear
+  257  git status
+  258  git push
+  259  git push --set-upstream origin optional 
+  260  clear
+  261  git branch
+  262  cat git_commands_v1.txt 
+  263  git checkout optional 
+  264  git checkout main
+  265  clear
+  266  git merge
+  267  git status
+  268  git log
+  269  clear
+  270  git checkout optional 
+  271  git branch
+  272  git checkout main
+  273  git branch -d optional 
+  274  git branch
+  275  git push
+  276  git fetch 
+  277  git branch
+  278  git pull
+  279  git config pull.rebase true
+  280  git pull
+  281  git branch
+  282  git push
+  283  git branch
+  284  clear
+  285  git branch
+  286  git pull
+  287  cat git_commands_v1.txt 
+  288  git branch optional_3
+  289  git checkout optional_3
+  290  git branch
+  291  nano -l git_commands_v1.txt 
+  292  clear
+  293  git sta
+  294  git status 
+  295  git add .
+  296  git checkout main
+  297  git merge optional_3 
+  298  clear
+  299  cat git_commands_v1.txt 
+  300  git status
+  301  git commit -m " Added new commands in branch optional_3" 
+  302  git push
+  303  git fetch
+  304  git branch
+  305  git pull
+  306  pwd
+  307  ls
+  308  cd Desktop/
+  309  ls
+  310  cd ITP270_SPRING2023/
+  311  ls
+  312  clear
+  313  nano -l command_line.txt
+  314  clear
+  315  pwd
+  316  cd ~
+  317  pwd
+  318  cd /
+  319  pwd
+  320  ls
+  321  ps
+  322  ls
+  323  cd usr
+  324  ls
+  325  pwd
+  326  cd ..
+  327  ls
+  328  cd home
+  329  ls
+  330  cd student/
+  331  ls
+  332  pwd
+  333  cd /
+  334  clear
+  335  ls
+  336  cd root/
+  337  sudo cd root
+  338  su root
+  339  su
+  340  su -
+  341  clear
+  342  su -
+  343  cd /etc/passwd
+  344  cd /
+  345  ls
+  346  cd etc
+  347  ls
+  348  grep ?
+  349  man grep
+  350  ls passwd
+  351  cat passwd
+  352  clear
+  353  ps
+  354  clear
+  355  cd Desktop/
+  356  ls
+  357  cd Shahpar Islam
+  358  cd Shahpar\ Islam
+  359  rm -rf Shahpar\ Islam
+  360  cd ..
+  361  rm -rf Shahpar\ Islam
+  362  ls
+  363  pwd
+  364  ls
+  365  cd Desktop/
+  366  ls
+  367  mkdir Command_Line
+  368  cd Command_Line/
+  369  git init
+  370  ls
+  371  ls -a
+  372  clear
+  373  git status
+  374  clear
+  375  history
+  376  clear
+  377  ls
+  378  touch command_line_02_14.txt
+  379  nano -l command_line_02_14.txt 
+  380  history
+  381  clear
+  382  cd Desktop/
+  383  cd Command_Line/
+  384  nano -l command_line_02_14.txt 
+  385  ls --help
+  386  ls -l --help
+  387  clear
+  388  man ls
+  389  cd ~
+  390  ls -l
+  391  clear
+  392  cd Desktop/
+  393  ls
+  394  cd Command_Line/
+  395  ls
+  396  ls -l
+  397  chmod 744 command_line_02_14.txt 
+  398  ls -l
+  399  touch hello.txt
+  400  clear
+  401  ls -l
+  402  chmod +x hello.txt 
+  403  ls -l
+  404  mkdir hello
+  405  ls -l
+  406  python --version
+  407  python3 --version
+  408  java --version
+  409  java --v
+  410  java -v
+  411  clear
+  412  cd ..
+  413  ls
+  414  pwd
+  415  cd Desktop/
+  416  ls
+  417  cd Command_Line/
+  418  git status 
+  419  git add .
+  420  git commit -m "Message"
+  421  git push
+  422  git remote Command_Line https://github.com/Islam-shahpar/Command_Line.git
+  423  git remote COmmand_Line https://github.com/Islam-shahpar/Command_Line
+  424  git remote Command_Line https://github.com/Islam-shahpar/Command_Line
+  425  git remote set-url --add Command_Line https://github.com/Islam-shahpar/Command_Line.git
+  426  git remote set-url --add islam-shahpar https://github.com/Islam-shahpar/Command_Line.git
+  427  clear
+  428  git branch
+  429  git branch -M main
+  430  git branch
+  431  git remote add origin https://github.com/Islam-shahpar/Command_Line.git
+  432  git push -u origin main
+  433  git pull
+  434  git push
+  435  ls
+  436  git branch
+  437  git checkout master
+  438  git branch
+  439  git push --set-upstream origin main
+  440  git pull
+  441  git config pull.rebase true
+  442  git pull
+  443  git branch
+  444  git push
+  445  git push --set-upstream origin main
+  446  git pull
+  447  git status
+  448  git pull remote master
+  449  git pull Command_Line master
+  450  git pull https://github.com/Islam-shahpar/Command_Line.git master
+  451  git pull https://github.com/Islam-shahpar/Command_Line.git main
+  452  git show HEAD
+  453  clear
+  454  git status
+  455  git push
+  456  git push --set-upstream origin main
+  457  history
+  458  cat history > history_02_15.txt
+  459  echo history > history_02_15.txt
+  460  cat history_02_15.txt 
+  461  history > history_02_15.txt 
